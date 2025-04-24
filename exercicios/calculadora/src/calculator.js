@@ -40,7 +40,7 @@ function calculator() {
     return calcArray
   }
 
-  let string = String(prompt('Digite o calculo: ')) // Print's the instructions to the user
+  let string = "10+15" // Print's the instructions to the user
   // "State variables" | "useState"
   let counter = 0; // Counter for the loop
   let step = 1; // Increment for the counter
