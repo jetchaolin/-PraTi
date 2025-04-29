@@ -73,3 +73,27 @@
 // Para cada leitura da senha incorreta informada escrever a mensagem "SENHA INVÁLIDA".
 // Quanto a senha for informada corretamente deve ser impressa a mensagem "ACESSO PERMITIDO"
 // e o algoritmo encerrado. Considere que a senha correta é o valor 2807.
+
+
+
+
+// GALERA PODEMOS ADIANTAR E FORMAR GRUPOS PARA FAZER O PROJETO FINAL 
+
+// - O projeto final é um projeto que vai ser apresentado as empresas que apoiam o curso
+
+// USANDO REACT E JAVA 
+
+// de até 10 pessoas mas o ideal é 7. 
+
+// site de barberia, academia 
+// erp escolares e empresas
+// airbnb de carro
+// integração de serviços com chatbot, contratar profissionais tipo fetninjas
+// ifood pra projetos sustentáveis
+// evento
+// plataforma de streaming
+
+// login com jwt
+// teste unitário e de integração
+
+// as notas são individuais
