@@ -1,15 +1,14 @@
 # **Curso Mais Prati - Primeira Lista de Exercícios**
----
+
 Repositório composto de exercícios resolvidos em JavaScript utilizando de <sup>`Node.js`</sup> para interpretar código JS em terminal e <sup>`prompt-sync`</sup> para obter os inputs do usuário.
 
 ### **Pré-requisitos**
----
 
 * <sup>`Node.js`</sup> instalado em sua máquina.
 * Biblioteca <sup>`prompt-sync`</sup> instalada na pasta do seu projeto.
 
 ### **Exercícios**
----
+
 1. **Par ou Ímpar**: Escreva um programa que recebe um <ins>número inteiro</ins> e verifica se ele é **par** ou **ímpar**
  utilizando uma estrutura de controle <sup>if</sup>.
 2. **Classificação Etária**: Crie um programa que **classifica a idade** de uma pessoa em categorias (*criança,
@@ -43,7 +42,7 @@ Repositório composto de exercícios resolvidos em JavaScript utilizando de <sup
 15. **Sequência de Fibonacci**: Escreva um programa que gera e imprime os primeiros **10 números** da sequência de **Fibonacci** utilizando um loop <sup>for</sup>.
 
 ### **MODO DE INSTALAÇÃO**
----
+
 ### Instale o <sup>`Node.js`</sup> na sua máquina. 
 
 #### 1. Você pode baixar o <sup>`Node.js`</sup> no [link](https://nodejs.org/en/download/) e instalar na sua máquina.
@@ -83,10 +82,10 @@ npm -v # Should print "10.9.2".
 <br />
 
 ### **Baixe o repositório com os exercícios**
----
+ 
 ```sh
 # Clona o repositório para sua máquina
-git clone https://github.com/jetchaolin/-PraTi/tree/main/exercicios/lista_de_exercicios/v2
+git clone https://github.com/jetchaolin/-PraTi.git
 # Navegue até a pasta dos exercícios
 cd exercicios/lista_de_exercicios/v2
 ```
@@ -94,7 +93,7 @@ cd exercicios/lista_de_exercicios/v2
 <br />
 
 ### **Rode o comando abaixo no seu terminal para executar o programa:**
----
+ 
 1. Para executar os exercícios, utilize o comando:
 ```sh
 node main.js
