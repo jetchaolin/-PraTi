@@ -2,12 +2,12 @@
 
 Repositório composto de exercícios resolvidos em JavaScript utilizando de <sup>`Node.js`</sup> para interpretar código JS em terminal e <sup>`prompt-sync`</sup> para obter os inputs do usuário.
 
-### **Pré-requisitos**
+## **Pré-requisitos**
 
 * <sup>`Node.js`</sup> instalado em sua máquina.
 * Biblioteca <sup>`prompt-sync`</sup> instalada na pasta do seu projeto.
 
-### **Exercícios**
+## **Exercícios**
 
 1. **Par ou Ímpar**: Escreva um programa que recebe um <ins>número inteiro</ins> e verifica se ele é **par** ou **ímpar**
  utilizando uma estrutura de controle <sup>if</sup>.
@@ -41,7 +41,7 @@ Repositório composto de exercícios resolvidos em JavaScript utilizando de <sup
  utilizando um loop <sup>for</sup> ou <sup>while</sup>.
 15. **Sequência de Fibonacci**: Escreva um programa que gera e imprime os primeiros **10 números** da sequência de **Fibonacci** utilizando um loop <sup>for</sup>.
 
-### **MODO DE INSTALAÇÃO**
+## **MODO DE INSTALAÇÃO**
 
 ### Instale o <sup>`Node.js`</sup> na sua máquina. 
 
@@ -81,7 +81,7 @@ npm -v # Should print "10.9.2".
 ```
 <br />
 
-### **Baixe o repositório com os exercícios**
+## **Baixe o repositório com os exercícios**
  
 ```sh
 # Clona o repositório para sua máquina
@@ -92,7 +92,7 @@ cd exercicios/lista_de_exercicios/v2
 
 <br />
 
-### **Rode o comando abaixo no seu terminal para executar o programa:**
+## **Rode o comando abaixo no seu terminal para executar o programa:**
  
 1. Para executar os exercícios, utilize o comando:
 ```sh
@@ -110,7 +110,7 @@ Por exemplo:
 node exercicio-1-par-ou-impar/main.js
 ```
 
-### Para mais detalhes
+## Para mais detalhes
 
 - O exercícios podem ser encontrados em suas respectivas pastas.
 
