@@ -90,6 +90,12 @@ git clone https://github.com/jetchaolin/-PraTi.git
 cd exercicios/lista_de_exercicios/v2
 ```
 
+## **Instale o prompt-sync**
+
+```
+npm i prompt-sync
+```
+
 <br />
 
 ## **Rode o comando abaixo no seu terminal para executar o programa:**
