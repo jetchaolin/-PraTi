@@ -47,9 +47,9 @@ Repositório composto de exercícios resolvidos em JavaScript utilizando de `Nod
 
 #### 1. Você pode baixar o `Node.js` no [link](https://nodejs.org/en/download/) e instalar na sua máquina.
 
-#### 2. Ou você pode utilizar o [nvm](#baixe-e-instale-o-nvm) para isso.
+#### 2. Ou você pode utilizar o `nvm` para isso.
 
-**Baixe e instale o nvm**
+**Baixe e instale o `nvm`**
 
 ```sh
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
