@@ -85,9 +85,9 @@ npm -v # Should print "10.9.2".
  
 ```sh
 # Clona o repositório para sua máquina
-git clone https://github.com/jetchaolin/-PraTi.git
+git clone https://github.com/jetchaolin/mais-prati.git
 # Navegue até a pasta dos exercícios
-cd exercicios/lista_de_exercicios/v2
+cd exercicios_e_anotacoes_das_aulas/lista_de_exercicios/v2
 ```
 
 ## **Instale o prompt-sync**
