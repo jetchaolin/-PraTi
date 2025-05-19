@@ -28,19 +28,19 @@
 
 
 
-// function Anime(nome, maisForte, maisFraco, nota) {
-//   return {
-//     nome,
-//     maisForte,
-//     maisFraco,
-//     nota
-//   }
-// }
+function Anime(nome, maisForte, maisFraco, nota) {
+  return {
+    nome,
+    maisForte,
+    maisFraco,
+    nota
+  }
+}
 
-// let anime1 = Anime("Naturo", "Ebisu", "Konohamaru", 5)
-// let anime2 = Anime("One Piece", "Coby", "Ace", 5)
+let anime1 = Anime("Naturo", "Ebisu", "Konohamaru", 5)
+let anime2 = Anime("One Piece", "Coby", "Ace", 5)
 
-// console.log(anime2)
+console.log(anime2)
 
 
 
@@ -53,7 +53,7 @@
 // let palavra = 'Gremio'
 
 // for(let char of palavra) {
-//   console.log(palavra[char])
+//   console.log(char)
 // }
 
 // for (let i = 0; i < Object.keys(anime1).length; i++) {
@@ -69,7 +69,7 @@
 //   materia: 'Física',
 //   notas: {
 //     aluno1: [5, 7],
-//     alunoe2: [3, 7],
+//     aluno2: [3, 7],
 //   }
 // }
 
