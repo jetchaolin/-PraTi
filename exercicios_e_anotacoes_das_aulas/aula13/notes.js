@@ -39,7 +39,7 @@ class DoublyLinkedList {
   }
 
   inserirEm(indice, valor) {
-    if(indice < 0 || indice > this.length) throw RangeError('Índice está fora dos limites!')
+    if(indice < 0 || indice > this.length) console.log('Índice está fora dos limites!')//throw RangeError('Índice está fora dos limites!')
     if(indice === 0) return this.inserirInicio(valor)
     if(indice === this.length) return this.inserirFim(valor)
 
@@ -60,7 +60,7 @@ class DoublyLinkedList {
   }
 
   removerEm(indice) {
-    if(indice < 0 || indice > this.length) throw RangeError('Índice está fora dos limites!')
+    if(indice < 0 || indice > this.length) console.log('Índice está fora dos limites!')//throw RangeError('Índice está fora dos limites!')
 
     let removido
 
@@ -108,11 +108,30 @@ class DoublyLinkedList {
     // atual = null
   }
 
+  imprimir() {
+    let atual = this.head
+    let str = ''
+    while(atual) {
+      str += atual.valor + ' -> '
+      atual = atual.proximo
+    }
+    str += 'null'
+    console.log(str)
+  }
+
   imprimirFrente() {
 
   }
 
   impromirAtras() {
     
-  }
+  }  
 }
+
+let lista = new DoublyLinkedList()
+
+lista.inserirFim(10)
+lista.inserirInicio(9)
+lista.inserirInicio(8)
+
+lista.imprimir()
