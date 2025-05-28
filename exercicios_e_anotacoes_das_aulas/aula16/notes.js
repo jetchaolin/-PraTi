@@ -24,15 +24,15 @@ class Tree {
       this.root = new TreeNode(rootValue);
   }
 
-  printTree(node = this.root, prefix = '', isLast = true) {
-    console.log(prefix + (isLast ? '└── ' : '├── ') + node.value);
+  // printTree(node = this.root, prefix = '', isLast = true) {
+  //   console.log(prefix + (isLast ? '└── ' : '├── ') + node.value);
 
-    const childCount = node.children.length;
-    node.children.forEach((child, index) => {
-      const isLastChild = index === childCount - 1;
-      const newPrefix = prefix + (isLast ? '    ' : '│   ');
-      this.printTree(child, newPrefix, isLastChild);
-  })}
+  //   const childCount = node.children.length;
+  //   node.children.forEach((child, index) => {
+  //     const isLastChild = index === childCount - 1;
+  //     const newPrefix = prefix + (isLast ? '    ' : '│   ');
+  //     this.printTree(child, newPrefix, isLastChild);
+  // })}
 
   traverseDFS(callback) {
     function recurse(node) {
@@ -68,6 +68,6 @@ function printNode(node) {
   console.log(node.value)
 }
 
-// tree.traverseDFS(printNode)
+tree.traverseDFS(printNode)
 
-tree.printTree()
+// tree.printTree()
