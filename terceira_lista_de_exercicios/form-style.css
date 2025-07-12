@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  background: linear-gradient(to bottom, rgb(190, 0, 57), rgb(139, 0, 28)) fixed;
+  color:rgb(255, 255, 255);
+  padding: 20px;
+  margin: 4rem auto;
+  max-width: 600px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(9, 0, 0, 0.196);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+label {
+  font-weight: bold;
+  font-size: x-large;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+input {
+  width: 100%;
+  max-width: 20rem;
+  height: 2rem;
+  border-radius: 8px;
+}
+
+textarea {
+  font-size: x-large;
+  font-weight: bold;
+  width: 100%;
+  max-width: 100rem;
+  height: 10rem;
+  border-radius: 8px;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+select {
+  text-align: center;
+  font-size: larger;
+  width: fit-content;
+  max-width: 20rem;
+  height: 2rem;
+  border-radius: 8px;
+}
+
+button {
+  background: linear-gradient(to bottom, rgb(144, 0, 43), rgb(85, 1, 23)) no-repeat center center/cover;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: aliceblue;
+  font-size: x-large;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(to bottom, rgb(190, 0, 57), rgb(137, 0, 37)) no-repeat center center/cover;
+  transform: scale(1.02);
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 3rem auto;
+  }  
+}

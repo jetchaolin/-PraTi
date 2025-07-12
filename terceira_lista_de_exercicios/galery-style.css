@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+html {
+  height: auto;
+}
+
+body {
+  height: 100%;
+  background: linear-gradient(to bottom, rgb(190, 0, 57), rgb(139, 0, 28)) fixed;
+  font-family: "Plaster", system-ui;
+  font-size: medium;
+  color:rgb(255, 255, 255);
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+header {
+  border: 2px solid rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(9, 0, 0, 0.196);
+  margin-top: 7px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+main {
+  margin: 50px;
+  padding-top: 15px;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-size: x-large;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 7px;
+  margin-bottom: 15px;
+}
+
+/* Cores dos Nomes */
+div:first-child p {
+  background: linear-gradient(to bottom, #F5F5F5,rgb(255, 119, 0));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 10px 20px rgba(61, 0, 16, 0.5);
+}
+
+div:nth-child(2) p {
+  background: linear-gradient(to bottom, #F5F5F5, #9DB7F5);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 10px 20px rgba(61, 0, 16, 0.5);
+}
+
+div:nth-child(3) p {
+  background: linear-gradient(to bottom, #F5F5F5, #FAE078);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 10px 20px rgba(61, 0, 16, 0.5);
+}
+
+div:nth-child(4) p {
+  background: linear-gradient(to bottom, #F5F5F5, #A7DB8D);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 10px 20px rgba(61, 0, 16, 0.5);
+}
+
+div:nth-child(5) p {
+  background: linear-gradient(to bottom, #F5F5F5, #C183C1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 10px 20px rgba(61, 0, 16, 0.5);
+}
+
+div:nth-child(6) p {
+  background: linear-gradient(to bottom, #F5F5F5, #FA92B2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 10px 20px rgba(61, 0, 16, 0.5);
+}
+
+div:nth-child(7) p {
+  background: linear-gradient(to bottom, #F5F5F5, #F5AC78);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 10px 20px rgba(61, 0, 16, 0.5);
+}
+
+div:nth-child(8) p {
+  background: linear-gradient(to bottom, #F5F5F5, #EBD69D);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 10px 20px rgba(61, 0, 16, 0.5);
+}
+
+/* Estilo das Imagens */
+
+img {
+  justify-self: center;
+  width: 200px;
+  height: 130px;
+  border: 5px solid rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+div:first-child img {
+  background-color: #D1C17D;
+}
+
+div:nth-child(2) img {
+  background-color: #9DB7F5;
+}
+div:nth-child(3) img {
+  background-color: #FAE078;
+}
+div:nth-child(4) img {
+  background-color: #A7DB8D;
+}
+div:nth-child(5) img {
+  background-color: #C183C1;
+}
+div:nth-child(6) img {
+  background-color: #FA92B2;
+}
+div:nth-child(7) img {
+  background-color: #F5AC78;
+}
+div:nth-child(8) img {
+  background-color: #EBD69D;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;  
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    height: auto;
+  }
+
+  .galeria {
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
+  }  
+}
